@@ -1,0 +1,134 @@
+html{
+    background-color: rgb(230, 228, 228);
+}
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+
+#header{
+   border: 1px solid black;
+   height: 130px;
+  
+}
+
+.na li, a{
+   list-style-type: none;
+   text-decoration: none;
+   color: black;
+   margin-left: 76px;
+}
+
+.na ul{
+    display: flex;
+    flex-wrap:  row wrap;
+    justify-content: space-around;
+    transform: translateY(-103px);
+    margin-left: 144px;
+}
+ #main{
+    border: 1px solid rgb(0, 0, 0);
+    height: 600px;
+    margin-top: 12px;
+
+ }
+ .hot{
+    display: flex;
+    transform: translateY(23px);
+    justify-content: space-around;
+ }
+  
+.adjara{
+    border: 1px solid black;
+    width: 380px;
+}
+.adj{
+    margin-left: 28px;
+}
+ .kakheti{
+    border: 1px solid black;
+    width: 380px;
+ }
+ .tbilisi{
+    border: 1px solid black;
+    width: 380px;
+ }
+ .tbili{
+    margin-left: 28px;
+ }
+
+ .guria{
+    border: 1px solid black;
+    width: 380px;
+ }
+ .guri{
+    margin-left: 28px;
+ }
+
+#footer{
+   border: 1px solid black; 
+   height: 250px;
+   margin-top: 20px;
+   background-color:rgb(255, 174, 74);
+}
+.foo-cont{
+    margin-left: 940px;
+    transform: translateY(-200px);
+    padding: 12px;
+    
+}
+
+input, label, button{
+    margin: 12px;
+}
+
+.dropdownmenu li{
+   float: left;
+   position: relative;
+   width: auto;
+ }
+ 
+ .dropdownmenu a{
+   background: #62b8e7;
+   color: #777777;
+   display: block;
+   padding: 10px 25px;
+   text-align: center;
+   text-decoration: none;
+   transition:  all .25s ease;
+ }
+ 
+ .dropdownmenu li:hover{
+   background-color: #000000;
+ }
+ 
+ #submenu {
+   left: 100;
+   opacity: 0;
+   position: absolute;
+   top: 140px;
+   visibility: hidden;
+  
+   
+ }
+ 
+ li:hover ul#submenu{
+   opacity: 1;
+   top: 110px;
+   visibility: visible;
+   
+ }
+ 
+ #submenu li{
+   float: none;
+   width: 100%;
+ }
+ 
+ #submenu a:hover{
+   background: #fbff00;
+ }
+ 
+ #submenu a{
+   background-color: #a1e7ed;
+ }

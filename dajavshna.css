@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.Book{
+    border: 1px solid #122064;
+    width: 800px;
+    display: flex;
+    transform: translateX(500px);
+    margin-top: 25px;
+    
+}
+header {
+    background-color: #edea2b;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="number"] {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+#header{
+    border: 1px solid black;
+    height: 130px;
+    
+ }
+ 
+ .na .menu-peri, a{
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+   
+ }
+ 
+ .na ul{
+     display: flex;
+     flex-wrap:  row wrap;
+     justify-content: space-around;
+     transform: translateY(-103px);
+     margin-left: 144px;
+ }
+  
+ #main{
+     border: 1px solid black ;
+     height: 650px;
+     width: 1000px;
+     margin-left: 422px;
+     margin-right: 12px;
+     margin-top: 8px;
+    
+ }
+ 
+ .main-photo{
+     height: 500px;
+ }
+ 
+ 
+ 
+ #footer{
+    border: 1px solid black; 
+    height: 150px;
+    margin-top: 20px;
+    background-color:bisque;
+ }
+ .foo-cont{
+     margin-left: 940px;
+     transform: translateY(-200px);
+     padding: 12px;
+     
+ }
+ 
